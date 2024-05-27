@@ -1,5 +1,6 @@
 <!-- JS -->
 <script>
+/* IMPORTAZIONE */
 import NavBar from './components/NavBar.vue';
 import AppFooter from './components/AppFooter.vue';
 import { HeaderLink } from './assets/data/index.js'
@@ -19,11 +20,14 @@ export default {
 
 <!-- HTML -->
 <template>
+    <!-- NAVBAR -->
     <NavBar :link="HeaderLink" />
+    <!-- CONTENUTO -->
     <main>
         <RouterView />
     </main>
-    <AppFooter/>
+    <!-- FOOTER -->
+    <AppFooter />
 </template>
 
 <!-- CSS -->
@@ -36,22 +40,23 @@ export default {
 
 body {
     background-image: url(./assets/img/photo-background.jpg);
-  background-position: center;
-  background-blend-mode: darken;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
     background-color: black;
     color: white;
     height: 100vh;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.9);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 a {
     text-decoration: none;
     color: white;
 
-    &:active{
+    &:active {
         color: rgb(160, 159, 159);
     }
 }

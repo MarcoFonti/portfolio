@@ -25,17 +25,17 @@ export default {
 
 <!-- CSS -->
 <style scoped lang="scss">
-
 header {
     margin-top: 30px;
 }
 
-.container-nav{
+.container-nav {
     list-style: none;
     display: flex;
     gap: 25px;
     justify-content: center;
-    font-size: 22px;
+    font-size: 20px;
+
     .nav-link {
         text-decoration: none;
         color: inherit;
@@ -46,5 +46,4 @@ header {
         padding-bottom: 5px;
     }
 }
-
 </style>

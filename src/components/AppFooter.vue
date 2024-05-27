@@ -3,7 +3,7 @@
 
 export default {
     name: 'NomeFile',
-    
+
 };
 
 </script>
@@ -11,19 +11,22 @@ export default {
 <!-- HTML -->
 <template>
     <footer>
-    <ul>
-    <li><a class="back-icon back-github" href="https://github.com/MarcoFonti" target="_blank"><font-awesome-icon :icon="['fab', 'square-github']" /></a></li>
-    <li><a class="back-icon back-linkedin" href="https://www.linkedin.com/in/marcofonti99/" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
-    <li><a class="back-icon back-facebook" href="https://www.facebook.com/marco.fonti.5" target="_blank"><font-awesome-icon :icon="['fab', 'square-facebook']" /></a></li>
-    <li><a class="back-icon back-instagram" href="https://www.instagram.com/fonti_marco_/" target="_blank"><font-awesome-icon :icon="['fab', 'square-instagram']" /></a></li>
-    </ul>
+        <ul>
+            <li><a class="back-icon back-github" href="https://github.com/MarcoFonti" target="_blank"><font-awesome-icon
+                        :icon="['fab', 'square-github']" /></a></li>
+            <li><a class="back-icon back-linkedin" href="https://www.linkedin.com/in/marcofonti99/"
+                    target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
+            <li><a class="back-icon back-facebook" href="https://www.facebook.com/marco.fonti.5"
+                    target="_blank"><font-awesome-icon :icon="['fab', 'square-facebook']" /></a></li>
+            <li><a class="back-icon back-instagram" href="https://www.instagram.com/fonti_marco_/"
+                    target="_blank"><font-awesome-icon :icon="['fab', 'square-instagram']" /></a></li>
+        </ul>
     </footer>
 
 </template>
 
 <!-- CSS -->
 <style scoped lang="scss">
-
 footer {
     position: fixed;
     bottom: 15px;
@@ -39,29 +42,28 @@ ul {
     padding-right: 80px;
 
     li {
-    font-size: 30px;
+        font-size: 30px;
     }
 
-    .back-icon
-        {
+    .back-icon {
 
         transition: 0.7s ease;
 
-        &.back-github:hover{
-            color:  rgb(136, 136, 136);
+        &.back-github:hover {
+            color: rgb(136, 136, 136);
         }
-        &.back-linkedin:hover{
+
+        &.back-linkedin:hover {
             color: rgb(0, 119, 181);
         }
-        &.back-facebook:hover{
-            color:  rgb(24, 119, 242);
+
+        &.back-facebook:hover {
+            color: rgb(24, 119, 242);
         }
-        &.back-instagram:hover{
-            color: rgb(236,28,125);
+
+        &.back-instagram:hover {
+            color: rgb(236, 28, 125);
         }
     }
-    
-
 }
-
 </style>
