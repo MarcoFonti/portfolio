@@ -20,8 +20,21 @@ export default {
 <template>
   <div class="back-photo">
     <div id="section-title">
-      <div class="line"></div>
-      <h1 class="title">{{ title }}</h1>
+      <div class="container-title">
+        <div>
+          <div class="line"></div>
+          <h1 class="title">{{ title }}</h1>
+        </div>
+        <div class="honeycomb">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     </div>
     <div id="section-info">
       <div class="container-about">
@@ -30,7 +43,7 @@ export default {
         <div class="info-about">
           <RouterLink :to="{ name: 'about' }">
             <span class="link-about">ULTERIORI INFORMAZIONI</span>
-            <font-awesome-icon :icon="['fas', 'circle-right']" />
+            <div class="bn53"><font-awesome-icon :icon="['fas', 'circle-right']" /></div>
           </RouterLink>
         </div>
       </div>
@@ -49,13 +62,20 @@ export default {
 
 <!-- CSS -->
 <style scoped>
+.container-title {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+
+}
+
 #section-title {
   margin-left: 100px;
   margin-top: 80px;
 }
 
 .title {
-  font-size: 60px;
+  font-size: 55px;
   width: 400px;
 }
 
@@ -69,11 +89,10 @@ export default {
 .container-about,
 .container-certificate {
   border: 2px solid rgba(255, 255, 255, 0.18);
-  width: 450px;
-  min-height: 300px;
+  width: 500px;
   border-radius: 6px;
   padding: 10px;
-  box-shadow: 0px 0px 15px rgba(227, 228, 237, 0.37);
+  box-shadow: 0px 0px 15px rgba(232, 232, 237, 0.37);
 
   &:hover {
     opacity: 7;
@@ -90,7 +109,9 @@ export default {
   bottom: -15px;
   left: 0;
   right: 0;
-  bottom: 10px;
+  bottom: 5px;
+  position: absolute;
+  z-index: 1;
 }
 
 .title-about,
@@ -102,8 +123,11 @@ export default {
 .info-about {
   font-size: 20px;
   margin-top: 20px;
-  display: flex;
-  align-items: center;
+
+  a {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .link-about {
@@ -124,6 +148,7 @@ export default {
 }
 
 .back-photo {
+  position: relative;
   background-image: url(../assets/img/photo-background.jpg);
   background-position: center;
   background-blend-mode: darken;
@@ -135,5 +160,189 @@ export default {
   margin: 30px auto;
   position: relative;
   height: 700px;
+}
+
+@-webkit-keyframes honeycomb {
+
+  0%,
+  20%,
+  80%,
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  30%,
+  70% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes honeycomb {
+
+  0%,
+  20%,
+  80%,
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  30%,
+  70% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.honeycomb {
+  margin-top: 100px;
+  position: relative;
+  width: 400px;
+}
+
+.honeycomb div {
+  -webkit-animation: honeycomb 2.1s infinite backwards;
+  animation: honeycomb 2.1s infinite backwards;
+  background: rgba(255, 255, 255, 0.274);
+  height: 72px;
+  /* Aumentato a 72px */
+  margin-top: 36px;
+  /* Aumentato a 36px */
+  position: absolute;
+  width: 144px;
+  /* Aumentato a 144px */
+}
+
+.honeycomb div:after,
+.honeycomb div:before {
+  content: '';
+  border-left: 72px solid transparent;
+  /* Aumentato a 72px */
+  border-right: 72px solid transparent;
+  /* Aumentato a 72px */
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.honeycomb div:after {
+  top: -36px;
+  /* Aumentato a -36px */
+  border-bottom: 36px solid rgba(255, 255, 255, 0.274);
+  /* Aumentato a 36px */
+}
+
+.honeycomb div:before {
+  bottom: -36px;
+  /* Aumentato a -36px */
+  border-top: 36px solid rgba(255, 255, 255, 0.274);
+  /* Aumentato a 36px */
+}
+
+.honeycomb div:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  left: -168px;
+  /* Aumentato a -168px */
+  top: 0;
+}
+
+.honeycomb div:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  left: -84px;
+  /* Aumentato a -84px */
+  top: 132px;
+  /* Aumentato a 132px */
+}
+
+.honeycomb div:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  left: 84px;
+  /* Aumentato a 84px */
+  top: 132px;
+  /* Aumentato a 132px */
+}
+
+.honeycomb div:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  left: 168px;
+  /* Aumentato a 168px */
+  top: 0;
+}
+
+.honeycomb div:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  left: 84px;
+  /* Aumentato a 84px */
+  top: -132px;
+  /* Aumentato a -132px */
+}
+
+.honeycomb div:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  left: -84px;
+  /* Aumentato a -84px */
+  top: -132px;
+  /* Aumentato a -132px */
+}
+
+.honeycomb div:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+  left: 0;
+  top: 0;
+}
+
+.bn53 {
+  width: 100px;
+  animation: bn53bounce 4s infinite;
+  cursor: pointer;
+}
+
+@keyframes bn53bounce {
+
+  5%,
+  50% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1) rotate(0);
+  }
 }
 </style>
