@@ -2,17 +2,17 @@
 <script>
 /* IMPORTAZIONE */
 import NavBar from './components/NavBar.vue';
-import AppFooter from './components/AppFooter.vue';
-import { HeaderLink } from './assets/data/index.js'
+
+import { HeaderLink, ExperienceData } from './assets/data/index.js'
 
 export default {
     name: 'NomeFile',
     data() {
         return {
-            HeaderLink
+            HeaderLink,
         }
     },
-    components: { NavBar, AppFooter }
+    components: { NavBar }
 
 };
 
@@ -22,12 +22,10 @@ export default {
 <template>
     <!-- NAVBAR -->
     <NavBar :link="HeaderLink" />
+    <main class="scrollable-content">
     <!-- CONTENUTO -->
-    <main>
         <RouterView />
     </main>
-    <!-- FOOTER -->
-    <AppFooter />
 </template>
 
 <!-- CSS -->
@@ -46,10 +44,9 @@ body {
     background-size: cover;
     background-color: black;
     color: white;
-    height: 100vh;
-    overflow: hidden;
     background-color: rgba(0, 0, 0, 0.9);
     font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
 }
 
 a {
@@ -60,4 +57,6 @@ a {
         color: rgb(160, 159, 159);
     }
 }
+
+
 </style>
