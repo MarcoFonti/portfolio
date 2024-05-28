@@ -1,8 +1,10 @@
 <!-- JS -->
 <script>
+import AppFooter from '../components/AppFooter.vue';
 
 export default {
   name: 'HomePage',
+  components: { AppFooter },
   data() {
     return {
       title: 'Jr Full Stack Web Developer',
@@ -58,6 +60,8 @@ export default {
       </div>
     </div>
   </div>
+  <!-- FOOTER -->
+  <AppFooter />
 </template>
 
 <!-- CSS -->
@@ -157,9 +161,10 @@ export default {
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin: 30px auto;
+  margin: 0px auto;
   position: relative;
   height: 700px;
+  top: 80px;
 }
 
 @-webkit-keyframes honeycomb {
