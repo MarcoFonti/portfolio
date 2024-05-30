@@ -3,7 +3,7 @@
 /* IMPORTAZIONE */
 import NavBar from './components/NavBar.vue';
 
-import { HeaderLink, ExperienceData } from './assets/data/index.js'
+import { HeaderLink } from './assets/data/index.js'
 
 export default {
     name: 'NomeFile',

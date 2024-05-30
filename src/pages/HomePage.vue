@@ -1,10 +1,11 @@
 <!-- JS -->
 <script>
+
+/* IMPORTAZIONE FOOTER */
 import AppFooter from '../components/AppFooter.vue';
 
 export default {
   name: 'HomePage',
-  components: { AppFooter },
   data() {
     return {
       title: 'Jr Full Stack Web Developer',
@@ -14,6 +15,7 @@ export default {
       },
     }
   },
+  components: { AppFooter },
 };
 
 </script>
@@ -97,6 +99,7 @@ export default {
   border-radius: 6px;
   padding: 10px;
   box-shadow: 0px 0px 15px rgba(232, 232, 237, 0.37);
+  margin-bottom: 7px;
 
   &:hover {
     opacity: 7;

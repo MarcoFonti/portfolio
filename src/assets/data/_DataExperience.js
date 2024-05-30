@@ -1,34 +1,34 @@
-/* ESPORTAZIONE DATI ESPERIENZE BOOLEAN */
+/* ESPORTAZIONE DATI ESPERIENZE */
 export default [
     {
         title: 'Jr Full Stack Web Developer Trainee',
         name: 'Boolean (Novembre 2023 - Maggio 2024)',
         content: {
-            text: `Durante il corso Boolean, ho sviluppato competenze approfondite in vari ambiti della programmazione web e dell'amministrazione di database. Questo percorso formativo mi ha permesso di acquisire una solida base teorica e pratica nelle seguenti tecnologie:`,
+            text: `Durante il corso Boolean, ho sviluppato competenze in vari ambiti della programmazione web e dell'amministrazione di database. Questo percorso formativo mi ha permesso di acquisire una solida base teorica e pratica nelle seguenti tecnologie:`,
             experiences: [
                 {
                     titleExperience: 'Versionamento del codice con Git:',
-                    contentExperience: 'Ho imparato a gestire versioni del codice e collaborare con altri sviluppatori utilizzando Git e piattaforme come GitHub.'
+                    contentExperience: 'Durante il mio percorso, ho acquisito competenze nel versionamento del codice e nella collaborazione con altri sviluppatori attraverso l\'utilizzo di Git e piattaforme di hosting come GitHub.'
                 },
                 {
                     titleExperience: 'Sviluppo front-end con HTML, CSS e JavaScript:',
-                    contentExperience: 'Ho acquisito esperienza nella creazione di pagine web semantiche e ben strutturate utilizzando HTML, CSS per la stilizzazione avanzata e JavaScript per aggiungere interattività e dinamismo.'
+                    contentExperience: 'Ho consolidato la mia esperienza nel creare pagine web semantiche e ben strutturate sfruttando HTML per la struttura, CSS per la stilizzazione avanzata e JavaScript per aggiungere interattività e dinamismo.'
                 },
                 {
                     titleExperience: 'Framework e librerie:',
-                    contentExperience: 'Ho utilizzato Bootstrap per sviluppare interfacce utente responsive e Vue.js per creare applicazioni web reattive e component-based. Ho anche lavorato con Vite per migliorare l\'efficienza del processo di sviluppo.'
+                    contentExperience: 'Ho sfruttato Bootstrap per realizzare interfacce utente responsive e Vue.js per sviluppare applicazioni web reattive e basate su componenti. Inoltre, ho integrato Vite per ottimizzare il processo di sviluppo.'
                 },
                 {
                     titleExperience: 'Preprocessori CSS:',
-                    contentExperience: 'Ho appreso l\'uso di Sass per scrivere CSS più efficiente e mantenibile, sfruttando funzionalità avanzate come variabili e mixin.'
+                    contentExperience: 'Ho appreso l\'uso di Sass per scrivere CSS più efficiente e mantenibile, sfruttando funzionalità avanzate come le variabili.'
                 },
                 {
                     titleExperience: 'Sviluppo back-end con PHP e Laravel:',
-                    contentExperience: 'Ho sviluppato competenze in PHP, focalizzandomi sulla programmazione orientata agli oggetti (OOP), e ho utilizzato il framework Laravel per creare applicazioni web complesse e RESTful API.'
+                    contentExperience: 'Mi sono specializzato nella programmazione orientata agli oggetti (OOP) utilizzando PHP e ho approfondito le mie competenze creando applicazioni web complesse con il framework Laravel. Inoltre, ho acquisito esperienza nell\'implementazione e nell\'utilizzo di chiamate API per fornire dati al front-end delle applicazioni.'
                 },
                 {
                     titleExperience: 'Gestione e amministrazione di database:',
-                    contentExperience: 'Ho imparato a utilizzare SQL per interagire con database MySQL, e ho amministrato database tramite phpMyAdmin. Ho utilizzato MySQLi per operazioni di database in PHP e Eloquent ORM di Laravel per la gestione dei database.'
+                    contentExperience: 'Ho affrontato con successo l\'interazione con database MySQL attraverso l\'utilizzo di SQL e ho gestito i database agevolmente tramite l\'interfaccia web di phpMyAdmin. '
                 }
             ]
         }
@@ -45,7 +45,7 @@ export default [
                 },
                 {
                     titleExperience: 'Installazione e funzionalità dei macchinari:',
-                    contentExperience: 'Mi sono occupato della corretta installazione e del collaudo delle apparecchiature, assicurandomi che fossero pienamente operative e pronte per l\'uso da parte dei clienti.'
+                    contentExperience: 'Mi sono dedicato all\'installazione accurata, garantendo che fosse eseguita correttamente e che fosse completamente operativa, pronta per essere collaudata.'
                 },
                 {
                     titleExperience: 'Rispettare le tempistiche di consegna:',
@@ -57,11 +57,11 @@ export default [
                 },
                 {
                     titleExperience: 'Mantenimento degli standard di qualità:',
-                    contentExperience: 'Ho garantito un alto standard di qualità nel lavoro svolto, assicurandomi che ogni macchinario soddisfacesse i requisiti di sicurezza e prestazioni.'
+                    contentExperience: 'Mi sono impegnato a mantenere un elevato standard qualitativo nel mio lavoro, verificando che ciascun macchinario soddisfacesse i requisiti estetici nel cablaggio.'
                 },
                 {
                     titleExperience: 'Formazione dei nuovi arrivati:',
-                    contentExperience: 'Ho svolto un ruolo chiave nella formazione dei nuovi arrivati, fornendo loro le competenze e le conoscenze necessarie per svolgere efficacemente il proprio lavoro. Ho creato e condotto sessioni di formazione sulle procedure aziendali, le politiche di sicurezza e le migliori pratiche nel settore. Grazie a questa attività di formazione, ho contribuito a garantire che i nuovi membri del team fossero in grado di integrarsi rapidamente e di svolgere il proprio lavoro in modo efficiente.'
+                    contentExperience: 'Nel mio ruolo, ho giocato un ruolo chiave nella formazione dei nuovi arrivati, fornendo loro le competenze e le conoscenze necessarie per svolgere efficacemente il proprio lavoro. Inoltre, ho offerto loro consigli pratici su come eseguire al meglio le attività e suggerimenti su approcci efficienti per raggiungere gli obiettivi prefissati.'
                 }
             ]
         }
@@ -70,7 +70,7 @@ export default [
         title: 'Operatore di Call Center',
         name: ' Brokery Italia (2023)',
         content: {
-            text: `All'inizio del 2023, ho lavorato come operatore di call center, dove ho migliorato le mie capacità di comunicazione e ascolto attivo. Le mie responsabilità principali includevano:`,
+            text: `All'inizio del 2023, ho lavorato come operatore di call center, dove ho migliorato le mie capacità di comunicazione e ascolto attivo. Le mie responsabilità includevano:`,
             experiences: [
                 {
                     titleExperience: 'Assistenza alla clientela:',
@@ -85,16 +85,12 @@ export default [
                     contentExperience: 'Ho gestito un elevato volume di chiamate giornaliere, mantenendo un alto livello di cortesia e professionalità in ogni interazione.'
                 },
                 {
-                    titleExperience: 'Risoluzione dei problemi:',
-                    contentExperience: 'Ho imparato a identificare e risolvere rapidamente i problemi dei clienti, migliorando la loro esperienza complessiva con il servizio offerto.'
-                },
-                {
                     titleExperience: 'Feedback costruttivo:',
                     contentExperience: 'Ho ricevuto e utilizzato feedback costruttivi per migliorare continuamente le mie competenze e prestazioni nel ruolo.'
                 },
                 {
                     titleExperience: 'Gestione degli appuntamenti:',
-                    contentExperience: "Ho gestito l'agenda del broker assegnando e coordinando gli appuntamenti con i clienti. Questo includeva la pianificazione delle riunioni, la gestione delle prenotazioni e la comunicazione con i clienti per confermare gli appuntamenti. Ho lavorato attentamente per garantire che gli orari fossero ottimizzati e che i clienti ricevessero un servizio efficiente e tempestivo. Grazie alla mia organizzazione e alla mia attenzione ai dettagli, sono riuscito a gestire con successo gli appuntamenti, assicurando che tutte le parti coinvolte fossero informate e soddisfatte."
+                    contentExperience: "Ho gestito l'agenda del broker assegnando e coordinando gli appuntamenti con i clienti. Questo includeva la pianificazione delle riunioni, la gestione delle prenotazioni e la comunicazione con i clienti per confermare gli appuntamenti. Ho lavorato attentamente per garantire che gli orari fossero ottimizzati e che i clienti ricevessero un servizio efficiente e tempestivo."
                 }
             ]
         }
