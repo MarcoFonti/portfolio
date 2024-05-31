@@ -48,6 +48,7 @@ export default {
 
 <!-- CSS -->
 <style scoped lang="scss">
+
 /* CONTENITORE */
 .container {
   margin-left: 55px;

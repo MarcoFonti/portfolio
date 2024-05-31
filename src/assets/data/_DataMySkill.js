@@ -2,74 +2,74 @@
 export default [
     {
         title: 'Git',
-        image: '../img/git-removebg-preview.png'
+        image: 'git-removebg-preview.png'
     },
     {
         title: 'GitHub',
-        image: '../img/github-removebg-preview.png'
+        image: 'github-removebg-preview.png'
     },
     {
         title: 'HTML',
-        image: '../img/html-removebg-preview.png'
+        image: 'html-removebg-preview.png'
     },
     {
         title: 'CSS',
-        image: '../img/css-removebg-preview.png'
+        image: 'css-removebg-preview.png'
     },
     {
         title: 'Bootstrap',
-        image: '../img/bootstrap-removebg-preview.png'
+        image: 'bootstrap-removebg-preview.png'
     },
     {
         title: 'JavaScript',
-        image: '../img/js-removebg-preview.png'
+        image: 'js-removebg-preview.png'
     },
     {
         title: 'Vue',
-        image: '../img/vue-removebg-preview.png'
+        image: 'vue-removebg-preview.png'
     },
     {
         title: 'Vite',
-        image: '../img/vite-removebg-preview.png'
+        image: 'vite-removebg-preview.png'
     },
     {
         title: 'Sass',
-        image: '../img/sass-removebg-preview.png'
+        image: 'sass-removebg-preview.png'
     },
     {
         title: 'PHP',
-        image: '../img/php-removebg-preview.png'
+        image: 'php-removebg-preview.png'
     },
     {
         title: 'SQL',
-        image: '../img/sql-removebg-preview.png'
+        image: 'sql-removebg-preview.png'
     },
     {
         title: 'MySQL',
-        image: '../img/my-sql-removebg-preview.png'
+        image: 'my-sql-removebg-preview.png'
     },
     {
         title: 'phpMyAdmin',
-        image: '../img/phpmyadmin-removebg-preview.png'
+        image: 'phpmyadmin-removebg-preview.png'
     },
     {
         title: 'Laravel',
-        image: '../img/laravel-removebg-preview.png'
+        image: 'laravel-removebg-preview.png'
     },
     {
         title: 'API',
-        image: '../img/api-removebg-preview.png'
+        image: 'api-removebg-preview.png'
     },
     {
         title: 'WordPress',
-        image: '../img/wordpress-removebg-preview.png'
+        image: 'wordpress-removebg-preview.png'
     },
     {
         title: 'Shopify',
-        image: '../img/shopify-removebg-preview.png'
+        image: 'shopify-removebg-preview.png'
     },
     {
         title: 'Canva',
-        image: '../img/canva-removebg-preview.png'
+        image: 'canva-removebg-preview.png'
     }
 ];

@@ -47,6 +47,7 @@ export default {
 
 <!-- CSS -->
 <style scoped lang="scss">
+
 /* HEADER */
 header {
     display: flex;
