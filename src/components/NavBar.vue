@@ -75,7 +75,6 @@ header {
 
     .nav-link {
         text-decoration: none;
-        color: inherit;
     }
 
     .active-link {

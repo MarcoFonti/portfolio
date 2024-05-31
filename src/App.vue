@@ -1,15 +1,16 @@
 <!-- JS -->
 <script>
-/* IMPORTAZIONE */
+/* IMPORTAZIONE NAVBAR */
 import NavBar from './components/NavBar.vue';
 
+/* LINK NAVBAR */
 import { HeaderLink } from './assets/data/index.js'
 
 export default {
     name: 'NomeFile',
     data() {
         return {
-            HeaderLink,
+            HeaderLink, // Dati da passare alla NavBar
         }
     },
     components: { NavBar }
@@ -23,19 +24,21 @@ export default {
     <!-- NAVBAR -->
     <NavBar :link="HeaderLink" />
     <main class="scrollable-content">
-    <!-- CONTENUTO -->
+        <!-- CONTENUTO -->
         <RouterView />
     </main>
 </template>
 
 <!-- CSS -->
 <style>
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box
 }
 
+/* SFONFO */
 body {
     background-image: url(./assets/img/photo-background.jpg);
     background-position: center;
@@ -49,6 +52,7 @@ body {
     height: 100vh;
 }
 
+/* COLORE BASE */
 a {
     text-decoration: none;
     color: white;
@@ -57,6 +61,4 @@ a {
         color: rgb(160, 159, 159);
     }
 }
-
-
 </style>
