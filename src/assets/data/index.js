@@ -4,6 +4,8 @@ import HeaderLink from './_DataHeaderLink';
 import ExperienceData from './_DataExperience';
 /* DATI HOMEPAGE */
 import HomeData from './_DataHomePage';
+/* DATI SKILLIS */
+import SkillData from './_DataMySkill';
 
 /* ESPORTAZIONE */
-export { HeaderLink, ExperienceData, HomeData };
+export { HeaderLink, ExperienceData, HomeData, SkillData };

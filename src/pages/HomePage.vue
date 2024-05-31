@@ -71,6 +71,7 @@ export default {
 
 <!-- CSS -->
 <style scoped lang="scss">
+
 /* SFONDO SECONDARIO */
 .back-photo {
   position: relative;
@@ -166,21 +167,16 @@ export default {
   animation: honeycomb 2.1s infinite backwards;
   background: rgba(255, 255, 255, 0.274);
   height: 72px;
-  /* Aumentato a 72px */
   margin-top: 36px;
-  /* Aumentato a 36px */
   position: absolute;
   width: 144px;
-  /* Aumentato a 144px */
 }
 
 .honeycomb div:after,
 .honeycomb div:before {
   content: '';
   border-left: 72px solid transparent;
-  /* Aumentato a 72px */
   border-right: 72px solid transparent;
-  /* Aumentato a 72px */
   position: absolute;
   left: 0;
   right: 0;
@@ -188,23 +184,18 @@ export default {
 
 .honeycomb div:after {
   top: -36px;
-  /* Aumentato a -36px */
   border-bottom: 36px solid rgba(255, 255, 255, 0.274);
-  /* Aumentato a 36px */
 }
 
 .honeycomb div:before {
   bottom: -36px;
-  /* Aumentato a -36px */
   border-top: 36px solid rgba(255, 255, 255, 0.274);
-  /* Aumentato a 36px */
 }
 
 .honeycomb div:nth-child(1) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
   left: -168px;
-  /* Aumentato a -168px */
   top: 0;
 }
 
@@ -212,25 +203,20 @@ export default {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
   left: -84px;
-  /* Aumentato a -84px */
   top: 132px;
-  /* Aumentato a 132px */
 }
 
 .honeycomb div:nth-child(3) {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
   left: 84px;
-  /* Aumentato a 84px */
   top: 132px;
-  /* Aumentato a 132px */
 }
 
 .honeycomb div:nth-child(4) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
   left: 168px;
-  /* Aumentato a 168px */
   top: 0;
 }
 
@@ -238,18 +224,14 @@ export default {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   left: 84px;
-  /* Aumentato a 84px */
   top: -132px;
-  /* Aumentato a -132px */
 }
 
 .honeycomb div:nth-child(6) {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
   left: -84px;
-  /* Aumentato a -84px */
   top: -132px;
-  /* Aumentato a -132px */
 }
 
 .honeycomb div:nth-child(7) {
@@ -375,6 +357,6 @@ export default {
     margin-top: 15px;
     transition: all 0.5s ease;
   }
-
+  
 }
 </style>

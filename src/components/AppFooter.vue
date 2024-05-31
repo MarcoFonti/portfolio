@@ -27,6 +27,7 @@ export default {
 
 <!-- CSS -->
 <style scoped lang="scss">
+
 /* FOOTER */
 footer {
     position: fixed;
