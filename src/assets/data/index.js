@@ -8,6 +8,8 @@ import HomeData from './_DataHomePage';
 import SkillData from './_DataMySkill';
 /* DATI CONTATTI */
 import ContactData from './_DataContact';
+/* DATI PROGETTI PER SLIDE */
+import SlidesData from './_DataProject';
 
 /* ESPORTAZIONE */
-export { HeaderLink, ExperienceData, HomeData, SkillData, ContactData };
+export { HeaderLink, ExperienceData, HomeData, SkillData, ContactData, SlidesData };
